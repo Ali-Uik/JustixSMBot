@@ -1,0 +1,50 @@
+# Игнорирование виртуального окружения
+venv/
+.venv/
+ENV/
+env/
+
+# Игнорирование зависимостей
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Игнорирование кэша Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорирование временных файлов и логов
+*.log
+*.out
+*.txt
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# Игнорирование конфигурационных файлов с секретами
+.env
+*.env
+config.json
+*.key
+*.pem
+
+# Игнорирование IDE и редакторов
+.vscode/
+.idea/
+*.iml
+
+# Игнорирование системных файлов
+.DS_Store
+Thumbs.db
+
+# Игнорирование выходных данных Docker (если используется)
+docker-compose.override.yml
+.dockerignore
+
+# Игнорирование тестов и временных данных
+tests/__pycache__/
+tests/.pytest_cache/
+coverage/
+*.coverage
